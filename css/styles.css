@@ -21,7 +21,7 @@ nav {
     width: 100%;
     padding: 1%;
     background-color: #283618;
-    font-size: 
+    height: 150px;
 }
 
 .divNavitem {
@@ -36,7 +36,8 @@ ul {
 .heroImg {
     height:1000px;
     padding: 25px;
-    background: url(../images/Group\ 6.png) repeat center/cover;
+    background-image: url("../images/backgroundhead.png");
+    color: #283618;
 }
 
 .imgclass {
@@ -44,7 +45,7 @@ ul {
 }
 
 a {
-    color: #FBF6EF
+    color: #FBF6EF;
 }
 
 .content {
@@ -56,12 +57,14 @@ a {
 .pHero {
     font-size: 30px;
     text-align: center;
+    padding: 2%;
 }
 
 .pabout {
     font-size: 35px;
     color: #283618;
     width: 35%;
+    padding: 1%;
 }
 
 footer {
@@ -81,6 +84,7 @@ footer ul {
 
 .aboutMe {
     height: 700px;
+    background-color: #FAF9F9;
 }
 .about{
     font-size: 25px;
@@ -98,4 +102,27 @@ footer ul {
     margin-right: auto;
     margin-top: -300px;
 
+}
+
+#myWork-Grid {
+    display: grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content;
+    padding: 20px;
+    
+}
+.h1work {
+    text-align: center;
+    font-size: 30px;
+    color: #283618;
+}
+.project-card {
+    display: grid;
+    justify-items: center;
+    color: #283618;
+    font-size: 25px;
+    grid-template-columns: 1fr 1fr;
+    padding: 2%;
+}
+h4 {
+    font-size: 30px;
 }
