@@ -113,7 +113,7 @@ footer ul {
     display: grid;
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
     padding: 20px;
-    max-height:2500px;
+    max-height:2250px;
     
 }
 .h1work {
@@ -137,8 +137,28 @@ h4 {
 #mySkills {
     background-color:#FAF9F9;
     color: #283618;
+    height: 1000px;
 }
 .skillsHead {
     text-align: center;
     font-size: 30px;
+    padding: 5px;
+}
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    color: #283618;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+img.skillCard {
+
 }
