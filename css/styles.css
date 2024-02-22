@@ -35,8 +35,8 @@ ul {
 }
 .heroImg {
     height:1000px;
-    padding: 25px;
-    background-image: url("../images/backgroundhead.png");
+    padding: 1px;
+    background-image: url("../images/backgroundimagepng.png");
     color: #283618;
 }
 
@@ -64,12 +64,14 @@ a {
     font-size: 35px;
     color: #283618;
     width: 35%;
-    padding: 1%;
+    padding: 5%;
+    text-align: center;
 }
 
 footer {
     background-color: #283618;
 }
+
 footer ul {
     display: inline-block;
     vertical-align: top;
@@ -83,24 +85,27 @@ footer ul {
 }
 
 .aboutMe {
-    height: 700px;
+    height: 800px;
     background-color: #FAF9F9;
 }
 .about{
     font-size: 25px;
     color: #283618;
+    text-align: center left;
 }
 
 .button {
-    font-size: 25px;
+    font-size: 40px;
     padding: 15px 32px;
+    margin-left: 15%;
+    margin-top: -50px;
 }
 
 .aboutimg {
     text-align: right;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -300px;
+    margin-top: -800px;
 
 }
 
@@ -108,6 +113,7 @@ footer ul {
     display: grid;
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
     padding: 20px;
+    max-height:2500px;
     
 }
 .h1work {
@@ -117,12 +123,22 @@ footer ul {
 }
 .project-card {
     display: grid;
-    justify-items: center;
+    justify-items: right;
     color: #283618;
-    font-size: 25px;
-    grid-template-columns: 1fr 1fr;
-    padding: 2%;
+    font-size: 27px;
+    padding: 10%;
+    text-align: center;
 }
 h4 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#mySkills {
+    background-color:#FAF9F9;
+    color: #283618;
+}
+.skillsHead {
+    text-align: center;
     font-size: 30px;
 }
