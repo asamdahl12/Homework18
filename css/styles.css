@@ -161,7 +161,17 @@ h4 {
 }
 
 @media only screen and (max-width:600){
+    .flexContainer {
+        flex-direction: column;
+        width: 100%;
+
+    }
+    #categoryGrid {
+        display: grid;
+        grid-template-rows: 
+    }
     
+
 
 }
 
