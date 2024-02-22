@@ -159,6 +159,9 @@ h4 {
     display: flex;
     justify-content: space-between;
 }
-img.skillCard {
+
+@media only screen and (max-width:600){
+    
 
 }
+
